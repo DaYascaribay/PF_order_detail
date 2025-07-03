@@ -1,4 +1,4 @@
-from app import app
+from run import app
 
 def test_graphql_order_detail(client, requests_mock):
     order_data = {
